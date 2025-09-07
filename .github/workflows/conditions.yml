@@ -1,7 +1,7 @@
 name: Conditions
 on: push
 jobs:
-  skip-or-run:
+  skip-or-runs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello"
