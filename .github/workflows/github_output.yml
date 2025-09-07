@@ -9,3 +9,8 @@ jobs:
       - env:
           RESULT: ${{ steps.source.outputs.result }}
         run: echo "${RESULT}"
+      - id: source
+        run: echo "result=Hello1" >> "${GITHUB_OUTPUT}"
+      - env:
+          RESULT: ${{ steps.source.outputs.result }}
+        run: echo "${RESULT}"
