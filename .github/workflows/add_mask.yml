@@ -4,7 +4,7 @@ jobs:
   log:
     runs-on: ubuntu-latest
     env:
-      PASSWORD: SuperSecretValue
+      PASSWORD: "SuperSecretValue"
     steps:
       - name: bash-version
         run: echo "::add-mask::${PASSWORD}"
