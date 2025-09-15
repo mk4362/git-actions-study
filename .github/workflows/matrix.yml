@@ -1,5 +1,5 @@
 name: Matrix
-on: psuh
+on: push
 jobs:
   print:
     strategy:
